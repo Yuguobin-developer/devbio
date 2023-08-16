@@ -1,0 +1,47 @@
+#masthead.splash_head{background: none;}
+
+.deck_top_page{position: relative; padding-bottom: 120px;}
+
+.deck.deck_top_page .deck_background{
+    position: absolute; 
+    width: 100%;
+    height: calc(100% + 126px); 
+    top: -126px; left: 0;
+    background: var(--secondary-color);
+    
+}
+
+.deck.deck_top_page .deck_background .bubble{
+    width: 800px; height: 800px; 
+    position: absolute; 
+    background: url(images/background/green-bubbles-7.png) no-repeat;
+    background-size: 55%; 
+    background-position: center;
+    transform: translateX(-50%) translateY(-50%);
+    
+}
+
+.deck.deck_top_page .deck_background .bubble:nth-child(1){top: 420px; left: 5%; z-index: 3;}
+.deck.deck_top_page .deck_background .bubble:nth-child(2){top: 85%; left: 55%; transform: translateX(-50%) translateY(-50%) rotate(30deg);}
+.deck.deck_top_page .deck_background .bubble:nth-child(3){top: 5%; left: 75%;}
+
+
+#deck_1 h1{
+    color: var(--primary-color);
+    font-size: 60px;
+    line-height: 1.1em;
+}
+
+#deck_1 h1:nth-child(2){
+    padding-left: 20%;
+}
+
+@media(min-width: 1200px){
+    #deck_1 h1{font-size: 105px; }
+}
+
+@media(min-width: 1400px){
+    #deck_1 h1{font-size: 115px; }
+    .deck.deck_top_page .deck_background .bubble:nth-child(1){top: 440px;}
+    .deck.deck_top_page .deck_background .bubble{background-size: 60%;}
+}

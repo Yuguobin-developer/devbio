@@ -1,0 +1,19 @@
+------------------------------------------------------------------------------------------------------------------
+Version 1.2.1
+	- Escaped some data and remove some unused files.
+
+------------------------------------------------------------------------------------------------------------------
+Version 1.2.0 
+	- Rename plugin folder and files and remove unnecessary files.
+	- Fixed an issue on file upload button clicks not working on ajax enabled multi-page form.
+	- Change the 'Theme Scheme' dropdown option to 'Button & Icon Color' option using color picker.
+
+------------------------------------------------------------------------------------------------------------------
+Version 1.1.0
+	- Fixed an issue on file upload icon option not properly showing on form editor page.
+
+------------------------------------------------------------------------------------------------------------------
+Version 1.0.0 
+	- Initial release.
+
+------------------------------------------------------------------------------------------------------------------

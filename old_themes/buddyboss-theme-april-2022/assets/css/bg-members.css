@@ -1,0 +1,132 @@
+body{
+        background: #F3F4F2!important;
+}
+
+:root {
+    --primary-color: #006633;
+    --secondary-color: #30E27C;
+	--tertiary-color: #D2E4DA;
+    --text-color: #006633;
+    --background-color: #F3F4F2;
+
+}
+
+.search_bar{
+    display: block; width: 100%;
+    padding: 10px 0 0 0;
+    
+}
+
+.search_bar .form{
+    display: grid; width: 100%;
+    grid-template-columns: 2fr 1fr 1fr 100px;
+    grid-gap: 20px;
+}
+
+.search_bar .formfield{}
+.search_bar .formfield label{font-size: 13px; color: var(--primary-color);}
+.search_bar .formfield input[type=text]{display: block; width: 100%; border-radius: 20px; padding-left: 40px;
+    
+    background: transparent url(images/buttons/magnifier-grey.svg) no-repeat;
+    background-size: 16px 16px; 
+    background-position: center left 10px;
+}
+
+.search_bar .form .button{transform: translateY(27px); background: var(--secondary-color); border-radius: 20px; border: 2px solid var(--secondary-color); transition-duration: 0.25s; color: var(--primary-color); width: 120px;}
+.search_bar .form .button:hover{background: transparent; }
+
+.people_grid{
+    display: grid;
+    padding: 20px 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.people_grid .item{
+    min-height: 300px;
+    border-radius: 4px;
+    background: white;
+    position: relative;
+    border-radius: 34px;
+}
+
+.people_grid .item .item_avatar{
+    width: 126px; height: 126px;
+    margin: 20px auto;
+    border-radius: 50%;
+    background: url(<?php echo site_url(); ?>/wp-content/plugins/buddyboss-platform/bp-core/images/mystery-man.jpg) no-repeat;
+    background-size: cover!important;
+    background-position: center!important;
+}
+
+
+.people_grid .item .text_block{
+    text-align: center;
+    width: calc(100% - 40px);
+    margin: 10px auto 30px auto;
+    padding-bottom: 60px;
+}
+
+.people_grid .item .text_block h2{
+    line-height: 1.1;
+    margin-bottom: 6px;
+    margin-top: 0;
+    word-break: break-word;
+    color: #122b46;
+    letter-spacing: -.21px;
+    padding: 0;
+    color: var(--primary-color);
+}
+
+.people_grid .item .text_block p{color: var(--primary-color);}
+
+.people_grid .item .text_block a{
+    
+    color: var(--primary-color);
+}
+
+.people_grid .item .text_block a.button{
+    background: var(--secondary-color);
+    position: absolute;
+    width: calc(100% - 40px);
+    text-align: center;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 15px;
+    padding-top: 14px;
+}
+
+
+
+.item_member_overview{
+    margin-top: 5px;
+    font-weight: 500;
+    letter-spacing: -.24px;
+    line-height: 1.3;
+    font-size: 12px;
+    margin: 0;
+}
+
+@media(max-width: 1240px){
+    .people_grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(max-width: 940px){
+    .people_grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .search_bar .form{grid-template-columns: 1fr; grid-gap: 0.5em;}
+    .search_bar .form .button{transform: translateY(0);}
+}
+
+@media(max-width: 640px){
+    .people_grid{
+        grid-template-columns: 1fr ;
+    }
+    
+    
+}

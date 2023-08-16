@@ -1,0 +1,134 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms File Upload Enhance UI\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-01 04:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+
+#. Author of the plugin
+msgid "Butsokoy"
+msgstr ""
+
+#: class/gffuf-hooks.php:380 class/gffuf-hooks.php:493
+msgid "Button & Icon Color"
+msgstr ""
+
+#: class/gffuf-hooks.php:457 class/gffuf-hooks.php:508
+msgid "Button Placement"
+msgstr ""
+
+#: class/gffuf-hooks.php:450 class/gffuf-hooks.php:503
+msgid "Button Text"
+msgstr ""
+
+#: class/gffuf-hooks.php:112 class/gffuf-hooks.php:556
+#: class/gffuf-hooks.php:564
+msgid "Choose file"
+msgstr ""
+
+#: class/gffuf-hooks.php:494
+msgid ""
+"Choose the color that will be used for the file upload button and icons."
+msgstr ""
+
+#: class/gffuf-hooks.php:548
+msgid "Drop files here"
+msgstr ""
+
+#: class/gffuf-hooks.php:546 class/gffuf-hooks.php:548
+msgid "Drop files here or"
+msgstr ""
+
+#: class/gffuf-hooks.php:483
+msgid "Enable Enhance UI"
+msgstr ""
+
+#: class/gffuf-hooks.php:374
+msgid "Enable Enhance User Interface"
+msgstr ""
+
+#. Description of the plugin
+msgid "Enhances the user interface of Gravity Forms file upload field."
+msgstr ""
+
+#. Name of the plugin
+msgid "Gravity Forms File Upload Enhance UI"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://codecanyon.net/user/butsokoy"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://codecanyon.net/user/butsokoy/portfolio"
+msgstr ""
+
+#: class/gffuf-hooks.php:484
+msgid ""
+"If check, this will make the interface of file upload field more user "
+"friendly."
+msgstr ""
+
+#: class/gffuf-hooks.php:489
+msgid "If check, this will show the upload icon you have selected below."
+msgstr ""
+
+#: class/gffuf-hooks.php:504
+msgid ""
+"If you would like to override the default text for the file upload button, "
+"enter it here."
+msgstr ""
+
+#: class/gffuf-hooks.php:514
+msgid ""
+"If you would like to override the default text for the file upload "
+"placeholder, enter it here."
+msgstr ""
+
+#: class/gffuf-hooks.php:461
+msgid "Left"
+msgstr ""
+
+#: class/gffuf-hooks.php:113 class/gffuf-hooks.php:559
+#: class/gffuf-hooks.php:567
+msgid "No file chosen"
+msgstr ""
+
+#: class/gffuf-hooks.php:467 class/gffuf-hooks.php:513
+msgid "Placeholder Text"
+msgstr ""
+
+#: class/gffuf-hooks.php:462
+msgid "Right"
+msgstr ""
+
+#: class/gffuf-hooks.php:543
+msgid "Select files"
+msgstr ""
+
+#: class/gffuf-hooks.php:509
+msgid ""
+"Select the file upload button placement. Button can be placed in left or "
+"right."
+msgstr ""
+
+#: class/gffuf-hooks.php:499
+msgid "Select the upload icon you want to display inside field."
+msgstr ""
+
+#: class/gffuf-hooks.php:388 class/gffuf-hooks.php:488
+msgid "Show Upload Icon"
+msgstr ""
+
+#: class/gffuf-hooks.php:394 class/gffuf-hooks.php:498
+msgid "Upload Icon"
+msgstr ""

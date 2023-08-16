@@ -1,0 +1,276 @@
+
+@media(min-width: 1280px){
+    .container{
+        width: calc(100%)!important; margin: 0 auto;
+        max-width: initial;
+    }
+    
+    #promo_footer .box.dark_green{height: 465px;}
+}
+
+
+.grid{
+	display: grid; 
+	grid-gap: 40px; 
+}
+
+.grid_1_2{grid-template-columns: 1fr 2fr;}
+.grid_2_1{grid-template-columns: 2fr 1fr;}
+.grid_1_1{grid-template-columns: 1fr 1fr;}
+.grid_1_1_1{grid-template-columns: 1fr 1fr 1fr;}
+.grid_1_1_1_1{grid-template-columns: 1fr 1fr 1fr 1fr;}
+
+.rightalign{text-align: right;}
+.leftalign{text-align: left;}
+.centeralign{text-align: center;}
+
+.grid_align_bottom{
+	align-items: center!important;
+}
+
+
+.webwrapper{
+	display: block; 
+	width: calc(100% - 80px); 
+	margin: 0 auto; 
+	position: relative;
+	height: 100%; 
+}
+
+
+a.button{
+	width: 200px; 
+	height: 48px; 
+	border-radius: 24px; 
+	background: var(--primary-color); 
+	color: var(--background-color); 
+	text-align: center; 
+	font-size: 20px; 
+	display: inline-block; 
+	text-decoration: none;
+	line-height: 1em; 
+	padding-top: 13px;
+	transition-duration: 0.3s;
+}
+
+a.button:hover{
+	background: var(--secondary-color);
+}
+
+
+header a.button{
+    background: var(--secondary-color);
+    width: initial; 
+    height: initial;
+    font-size: initial;
+    line-height: initial;
+    padding-top: initial;
+}
+
+
+a.button.button_2{
+	color: var(--primary-color); 
+	background: var(--secondary-color); 
+}
+
+a.button.white_button{
+	background: white; 
+	color: var(--primary-color); 
+	border: 2px solid white; 
+	transition-duration: 0.25s;
+}
+
+a.button.white_button:hover{
+	background: none; 
+	color: white; 
+}
+
+a.button.white_outline_button{
+	background: none; 
+	color: white; 
+	border: 2px solid white; 
+	transition-duration: 0.25s;
+}
+
+a.button.white_outline_button:hover{
+	background: white; 
+	color: var(--primary-color);
+}
+
+.small_font{font-size: 16px; }
+
+/*--------------- FOOTER ---------------- */
+
+footer{
+	background: var(--primary-color); 
+	color: white; 
+	width: 100%; 
+	display: block;
+	min-height: 320px;
+	padding: 40px 0;
+}
+
+footer.logged_in{padding-left: 80px;}
+
+#page .footer-bottom, .footer-bottom{display: none!important;}
+.bb-footer{display: none!important;}
+
+
+footer p, footer h2, footer h3, footer a{
+	color: white;
+}
+
+footer .grid{
+	margin-bottom: 60px;
+}
+
+footer .grid p{
+	margin-bottom: 30px;
+}
+
+footer a.logo{
+	background: url(images/brand/bg-logo-white.svg) no-repeat;
+	background-size: 99%; 
+	background-position: center;
+	width: 320px; 
+	height: 37px; 
+	display: block; 
+}
+
+footer a.button.button_2{width: 320px;}
+
+@media(min-width: 1300px){
+	
+	footer p{font-size: 26px; }
+}
+
+@media(max-width: 840px){
+    footer a.button.button_2{width: 250px;}
+}
+
+@media(max-width: 680px){
+    footer a.button, footer a.button.button_2{width: 100%;}
+}
+
+footer .sign_up_form{
+	display: grid;
+	grid-template-columns: 1fr 200px; 
+	grid-gap: 40px; 
+}
+
+footer .sign_up_form input{
+	width: calc(100%);
+	background: none; 
+	border: 2px solid white; 
+	border-radius: 24px; 
+	height: 48px; 
+	color: white; 
+	font-size: 20px; 
+	
+}
+
+footer .sign_up_form input:focus{
+    outline: none;
+}
+
+footer .separation{
+	width: 100%; 
+
+	border-top: 1px solid white; 
+	margin-bottom: 70px; 
+}
+
+footer ul{
+	display: block; 
+	margin: 0; 
+	padding: 0; 
+	text-indent: 0;
+}
+
+footer ul li{
+	list-style: none; 
+	display: inline-block; 
+	margin-right: 40px; 
+}
+
+footer ul li a{
+	color: white; 
+	text-decoration: underline; 
+	opacity: 0.8;
+	transition-duration: 0.25s;
+}
+
+footer ul li a:hover{
+	opacity: 1;
+	color: white;
+	text-decoration: underline; 	
+}
+
+footer .no_bottom_margin{margin-bottom: 0;}
+
+
+a.button.button_2{
+	color: var(--primary-color); 
+	background: var(--secondary-color); 
+}
+
+a.button.white_button{
+	background: white; 
+	color: var(--primary-color); 
+	border: 2px solid white; 
+	transition-duration: 0.25s;
+}
+
+a.button.white_button:hover{
+	background: none; 
+	color: white; 
+}
+
+a.button.white_outline_button{
+	background: none; 
+	color: white; 
+	border: 2px solid white; 
+	transition-duration: 0.25s;
+}
+
+a.button.white_outline_button:hover{
+	background: white; 
+	color: var(--primary-color);
+}
+
+
+
+@media(max-width: 1200px){
+	footer .sign_up_form{grid-template-columns: 1fr; grid-gap: 20px; }
+}
+
+@media(max-width: 840px){
+	footer a.logo{
+		width: 232px; 
+		height: 27px;
+	}
+	
+	footer .rightalign{text-align: left!important;}
+	
+
+}
+
+@media(max-width: 800px){
+    footer.logged_in{padding-left: 0;}
+}
+
+@media(max-width: 680px){
+    footer .grid_1_1{grid-template-columns: 1fr; }
+    
+}
+
+@media(max-width: 600px){
+	footer .grid_1_1 a.button.button_2, footer .grid_1_1 a.button.white_button{width: 100%; text-align: center;}
+	
+	footer .no_bottom_margin{text-align: center;}
+	footer p.small_font{text-align: center;}
+	
+	footer ul li{margin-right: 20px; margin-left: 20px;
+	
+	
+}

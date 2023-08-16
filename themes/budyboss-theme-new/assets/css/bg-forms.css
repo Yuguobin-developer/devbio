@@ -1,0 +1,162 @@
+
+
+
+.gform_wrapper form input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]){
+    padding: 0 28px;
+    border-radius: 28px; height: 56px; padding: 0 28px;
+}
+
+.gform_wrapper form textarea{
+    border-radius: 28px; padding: 14px 28px;
+}
+
+.gform_wrapper form .top_label .gfield_label{display: none;}
+.gform_wrapper form .top_label .visible_label .gfield_label{display: block;}
+
+.gform_wrapper form .clock_field .gfield_label{display: block;}
+
+.gform_wrapper form .top_label .visible_label .gfield_label .gfield_required_text{display: none;}
+
+.gform_wrapper p, .gform_footer p{
+    display: none;
+}
+
+.gform_wrapper form .gform_footer input.button, .gform_wrapper form .gform_footer input[type=submit], .gform_wrapper form .gform_page_footer input.button, .gform_wrapper form .gform_page_footer input[type=submit]{
+    background: var(--primary-color); 
+    color: white; 
+    width: calc(100%); 
+    text-align: center;
+    height: 56px;
+    border-radius: 28px;
+}
+
+.box a{color: var(--primary-color); text-decoration: underline;}
+
+.gform_wrapper.gravity-theme .gfield select{
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    background: transparent;
+    border-radius: 28px;
+    height: 56px;
+    padding: 0 28px;
+    color: var(--primary-color);
+    background: url(images/buttons/icon-select-tick2.svg) no-repeat!important;
+    background-size: 12px 6px!important; 
+    background-position: center right 23px!important;
+}
+
+@media(max-width: 640px){
+    .gform_wrapper form .gform_footer input.button, .gform_wrapper form .gform_footer input[type=submit], .gform_wrapper form .gform_page_footer input.button, .gform_wrapper form .gform_page_footer input[type=submit]{
+        width: calc(100%);
+    }
+}
+
+.gform_wrapper.gravity-theme .gform_fields {
+    grid-column: span 12;
+}
+
+.gform_wrapper.gravity-theme .gfield.half_field{grid-column: span 6;}
+
+/*
+.gform_wrapper.gravity-theme .gfield.half_field:nth-child(odd){
+    grid-column: 1/7;
+}
+
+.gform_wrapper.gravity-theme .gfield.half_field:nth-child(even){
+    grid-column: 7/13;
+}
+
+*/
+
+.gform_wrapper.gravity-theme .gfield.file_field{
+    grid-row: span 3;
+}
+
+@media(max-width: 840px){
+    .gform_wrapper.gravity-theme .gfield.half_field{grid-column: span 12;}    
+}
+
+.gform_wrapper form input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) , .gform_wrapper form textarea{
+width: 100%; 
+    border: 1px solid var(--primary-color);
+    background: transparent;
+    
+}
+
+.gform_wrapper.gravity-theme .gfield textarea.large{
+    padding-left: 28px; padding-right: 28px;
+    resize: none;
+}
+
+.gform_wrapper input::-webkit-input-placeholder, .gform_wrapper select::-webkit-input-placeholder, .gform_wrapper textarea::-webkit-input-placeholder{
+    color: var(--primary-color);
+}
+
+.gform_wrapper.gravity-theme .gfield-choice-input+label{
+    color: var(--primary-color);
+    opacity: 0.5;
+}
+
+.gfield_radio input[type=radio]:checked +  label{
+    opacity: 1;
+}
+
+
+.gfield_radio input[type=radio] + label:before{
+    border-radius: 0;
+}
+
+.gfield_radio input[type=radio]:checked + label:after{
+    transform: translateY(4px);
+    border-radius: 0;
+    background: var(--primary-color);
+}
+
+.gform_wrapper form .gform_footer input.button, .gform_wrapper form .gform_footer input[type=submit], .gform_wrapper form .gform_page_footer input.button, .gform_wrapper form .gform_page_footer input[type=submit]{
+    background: var(--secondary-color); 
+    border: 1px solid var(--secondary-color);
+    color: var(--primary-color);
+}
+
+
+.gform_wrapper form .gform_footer input.button:hover, .gform_wrapper form .gform_footer input[type=submit]:hover, .gform_wrapper form .gform_page_footer input.button:hover, .gform_wrapper form .gform_page_footer input[type=submit]:hover{
+    background: transparent;
+    
+}
+
+
+.gform_wrapper form input.datepicker{background: url(images/buttons/icon-calendar-field.svg) no-repeat!important; background-size: 20px 20px; background-position: center right 25px!important;}
+
+.ginput_container_fileupload>input[type=file]+label, .ginput_container_post_image input[type=file]+label{color: var(--primary-color); border: 2px dashed var(--primary-color); background: transparent; border-radius: 34px;}
+
+.gform_wrapper.gravity-theme .ginput_complex{
+    display: grid; 
+    grid-template-columns: 2fr 20px 2fr 2fr;
+    text-align: center;
+}
+
+.gform_wrapper.gravity-theme .ginput_container_time{
+    min-width: initial; 
+    max-width: initial;
+}
+
+.gform_wrapper form .clock_field input{text-align: center;}
+
+.gform_wrapper.gravity-theme .hour_minute_colon{
+    transform: translateY(25%);
+}
+
+.gform_wrapper.gravity-theme .gfield_time_hour label.hour_label, .gform_wrapper.gravity-theme .gfield_time_minute label.minute_label{color: var(--primary-color); display: none;}
+
+@media (min-width: 1200px){
+    .container {
+        width: initial;
+    }
+}
+
+@media(min-width: 1400px){
+    .bb-grid{
+        width: 1200px; 
+        margin: 0 auto;
+    }
+}

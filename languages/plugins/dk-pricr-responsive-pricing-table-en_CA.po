@@ -1,0 +1,374 @@
+# Translation of Plugins - Responsive Pricing Table - Development (trunk) in English (Canada)
+# This file is distributed under the same license as the Plugins - Responsive Pricing Table - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-09 10:44:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_CA\n"
+"Project-Id-Version: Plugins - Responsive Pricing Table - Development (trunk)\n"
+
+#: inc/rpt-metaboxes-settings.php:243
+msgid "Font sizes"
+msgstr "Font sizes"
+
+#: inc/rpt-metaboxes-settings.php:231
+msgid "Title alignment"
+msgstr "Title alignment"
+
+#: inc/rpt-metaboxes-settings.php:219
+msgid "Font to use"
+msgstr "Font to use"
+
+#: inc/rpt-metaboxes-settings.php:213
+msgid "Text settings"
+msgstr "Text settings"
+
+#: inc/rpt-metaboxes-settings.php:207
+msgid "Show/hide text settings"
+msgstr "Show/hide text settings"
+
+#: inc/rpt-metaboxes-settings.php:199
+msgid "e.g. $"
+msgstr "e.g. $"
+
+#: inc/rpt-metaboxes-settings.php:197
+msgid "Currency"
+msgstr "Currency"
+
+#: inc/rpt-metaboxes-settings.php:185
+msgid "Button behavior"
+msgstr "Button behaviour"
+
+#. translators: General settings
+#: inc/rpt-metaboxes-settings.php:179
+msgid "General"
+msgstr "General"
+
+#: inc/rpt-metaboxes-settings.php:26
+msgid "Center"
+msgstr "Centre"
+
+#: inc/rpt-metaboxes-settings.php:27
+msgid "Left"
+msgstr "Left"
+
+#: inc/rpt-metaboxes-settings.php:7
+msgid "Same window"
+msgstr "Same window"
+
+#: inc/rpt-metaboxes-settings.php:6
+msgid "New window"
+msgstr "New window"
+
+#: inc/rpt-metaboxes-plans.php:483
+msgid "Add a pricing plan"
+msgstr "Add a pricing plan"
+
+#: inc/rpt-metaboxes-plans.php:321
+msgid "e.g. This plan is suitable for small companies."
+msgstr "e.g. This plan is suitable for small companies."
+
+#: inc/rpt-metaboxes-plans.php:267 inc/rpt-metaboxes-plans.php:445
+msgid "Upload icon"
+msgstr "Upload icon"
+
+#: inc/rpt-metaboxes-plans.php:251 inc/rpt-metaboxes-plans.php:429
+msgid "e.g. class more-class"
+msgstr "e.g. class more-class"
+
+#: inc/rpt-metaboxes-plans.php:248 inc/rpt-metaboxes-plans.php:426
+msgid "CSS classes"
+msgstr "CSS classes"
+
+#: inc/rpt-metaboxes-plans.php:237 inc/rpt-metaboxes-plans.php:415
+msgid "Show/hide currency"
+msgstr "Show/hide currency"
+
+#: inc/rpt-metaboxes-plans.php:226 inc/rpt-metaboxes-plans.php:404
+msgid "Highlight a plan to make it stand out from the rest."
+msgstr "Highlight a plan to make it stand out from the rest."
+
+#: inc/rpt-metaboxes-plans.php:225 inc/rpt-metaboxes-plans.php:403
+msgid "Highlight plan"
+msgstr "Highlight plan"
+
+#: inc/rpt-metaboxes-plans.php:221 inc/rpt-metaboxes-plans.php:399
+msgid "Styling"
+msgstr "Styling"
+
+#: inc/rpt-metaboxes-plans.php:215 inc/rpt-metaboxes-plans.php:393
+msgid "Insert any code here to replace the standard button (e.g. Paypal/Stripe snippet, custom HTML...)."
+msgstr "Insert any code here to replace the standard button (e.g. Paypal/Stripe snippet, custom HTML...)."
+
+#: inc/rpt-metaboxes-plans.php:213 inc/rpt-metaboxes-plans.php:391
+msgid "Use the custom button field when you have code snippets/shortcodes from third party services/plugins that generate buttons. You could also use any HTML here such as an anchor tag. Custom buttons overwrite standard buttons."
+msgstr "Use the custom button field when you have code snippets/shortcodes from third party services/plugins that generate buttons. You could also use any HTML here such as an anchor tag. Custom buttons overwrite standard buttons."
+
+#: inc/rpt-metaboxes-plans.php:212 inc/rpt-metaboxes-plans.php:390
+msgid "Add custom code here"
+msgstr "Add custom code here"
+
+#: inc/rpt-metaboxes-plans.php:209 inc/rpt-metaboxes-plans.php:387
+msgid "Custom button"
+msgstr "Custom button"
+
+#: inc/rpt-metaboxes-plans.php:204 inc/rpt-metaboxes-plans.php:382
+msgid "e.g. http://site.com/product"
+msgstr "e.g. http://site.com/product"
+
+#: inc/rpt-metaboxes-plans.php:202 inc/rpt-metaboxes-plans.php:380
+msgid "Button URL"
+msgstr "Button URL"
+
+#: inc/rpt-metaboxes-plans.php:200 inc/rpt-metaboxes-plans.php:378
+msgid "e.g. Subscribe"
+msgstr "e.g. Subscribe"
+
+#: inc/rpt-metaboxes-plans.php:195 inc/rpt-metaboxes-plans.php:373
+msgid "Standard button"
+msgstr "Standard button"
+
+#: inc/rpt-metaboxes-plans.php:187 inc/rpt-metaboxes-plans.php:365
+msgid "Add feature"
+msgstr "Add feature"
+
+#: inc/rpt-metaboxes-plans.php:182 inc/rpt-metaboxes-plans.php:360
+msgid "Show some features as unavailable by adding '-n' before, e.g. '-nMy feature'."
+msgstr "Show some features as unavailable by adding '-n' before. Example: '-nMy feature'."
+
+#. translators: 1: image tooltip 2: link tooltip 3: bold text tooltip (leave at
+#. the end)
+#: inc/rpt-metaboxes-plans.php:175 inc/rpt-metaboxes-plans.php:353
+msgid "Images %1$s, links %2$s and bold text %3$s are allowed in the feature fields."
+msgstr "Images %1$s, links %2$s and bold text %3$s are allowed in the feature fields."
+
+#: inc/rpt-metaboxes-plans.php:155 inc/rpt-metaboxes-plans.php:335
+msgid "e.g. monthly"
+msgstr "e.g. monthly"
+
+#: inc/rpt-metaboxes-plans.php:153 inc/rpt-metaboxes-plans.php:333
+#: inc/rpt-metaboxes-settings.php:297
+msgid "Frequency"
+msgstr "Frequency"
+
+#: inc/rpt-metaboxes-plans.php:148 inc/rpt-metaboxes-plans.php:328
+msgid "e.g. 9"
+msgstr "e.g. 9"
+
+#: inc/rpt-metaboxes-plans.php:141
+msgid "e.g. This plan is suitable for small companies"
+msgstr "e.g. This plan is suitable for small companies"
+
+#: inc/rpt-metaboxes-plans.php:139 inc/rpt-metaboxes-plans.php:319
+msgid "Short description"
+msgstr "Short description"
+
+#: inc/rpt-metaboxes-plans.php:134 inc/rpt-metaboxes-plans.php:314
+msgid "e.g. Our best deal"
+msgstr "e.g. Our best deal"
+
+#: inc/rpt-metaboxes-plans.php:127 inc/rpt-metaboxes-plans.php:307
+msgid "e.g. Platinum"
+msgstr "e.g. Platinum"
+
+#: inc/rpt-metaboxes-plans.php:112 inc/rpt-metaboxes-plans.php:292
+msgid "Clone"
+msgstr "Duplicate"
+
+#: inc/rpt-metaboxes-plans.php:74
+msgid "Instant preview"
+msgstr "Live preview"
+
+#: inc/rpt-metaboxes-plans.php:73
+msgid "Collapse all"
+msgstr "Collapse all"
+
+#: inc/rpt-metaboxes-plans.php:72
+msgid "Expand all"
+msgstr "Expand all"
+
+#: inc/rpt-metaboxes-plans.php:65
+msgid "Close preview"
+msgstr "Close preview"
+
+#: inc/rpt-metaboxes-plans.php:12
+msgid "Hide"
+msgstr "Hide"
+
+#: inc/rpt-metaboxes-plans.php:12
+msgid "Show"
+msgstr "Show"
+
+#: inc/rpt-metaboxes-plans.php:5
+msgid "Enabled"
+msgstr "Enabled"
+
+#: inc/rpt-metaboxes-plans.php:5
+msgid "Disabled"
+msgstr "Disabled"
+
+#. translators: Leave HTML tags
+#: inc/rpt-metaboxes-help.php:32
+msgid "To display your Pricing Table on your site, copy-paste the <strong>[Shortcode]</strong> above in your post/page."
+msgstr "To display your Pricing Table on your site, copy-paste the <strong>[Shortcode]</strong> above in your post/page."
+
+#. translators: Leave HTML tags
+#: inc/rpt-metaboxes-help.php:27
+msgid "<strong>Publish</strong> your pricing table before you can see your shortcode here!"
+msgstr "<strong>Publish</strong> your pricing table before you can see your shortcode here!"
+
+#: inc/rpt-admin-scripts.php:25
+msgid "This is only a preview, shortcodes used in the fields will not be rendered and results may vary depending on your container's width."
+msgstr "This is only a preview, shortcodes used in the fields will not be rendered and results may vary depending on your container's width."
+
+#: inc/rpt-admin-scripts.php:24
+msgid "Add at least <strong>1</strong> plan to preview the pricing table."
+msgstr "Add at least <strong>1</strong> plan to preview the pricing table."
+
+#: inc/rpt-admin-scripts.php:23
+msgid "copy"
+msgstr "copy"
+
+#: inc/rpt-admin-scripts.php:22
+msgid "Untitled"
+msgstr "Untitled"
+
+#. Author URI of the plugin
+msgid "https://wpdarko.com"
+msgstr "https://wpdarko.com"
+
+#. Author of the plugin
+msgid "WP Darko"
+msgstr "WP Darko"
+
+#. Description of the plugin
+msgid "A responsive, easy and elegant way to present your offer to your visitors. Just create a new pricing table (custom type) and copy-paste the shortcode into your posts/pages. Find help and information on our <a href=\"https://help.wpdarko.com/en\">support site</a>. This free version is NOT limited and does not contain any ad. Check out the <a href='https://wpdarko.com/items/responsive-pricing-table-pro/'>PRO version</a> for more great features."
+msgstr "A responsive, easy and elegant way to present your offer to your visitors. Just create a new pricing table (custom type) and copy-paste the shortcode into your posts/pages. Find help and information on our <a href=\"https://help.wpdarko.com/en\">support site</a>. This free version is NOT limited and does not contain any ad. Check out the <a href='https://wpdarko.com/items/responsive-pricing-table-pro/'>PRO version</a> for more great features."
+
+#. Plugin URI of the plugin
+msgid "https://wpdarko.com/items/responsive-pricing-table-pro/"
+msgstr "https://wpdarko.com/items/responsive-pricing-table-pro/"
+
+#. Plugin Name of the plugin
+msgid "Responsive Pricing Table"
+msgstr "Responsive Pricing Table"
+
+#: inc/rpt-post-type.php:59
+msgid "Pricing Table draft updated."
+msgstr "Pricing Table draft updated."
+
+#: inc/rpt-post-type.php:58
+msgid "Pricing Table saved."
+msgstr "Pricing Table saved."
+
+#: inc/rpt-post-type.php:57
+msgid "Pricing Table published."
+msgstr "Pricing Table published."
+
+#: inc/rpt-post-type.php:55 inc/rpt-post-type.php:56
+msgid "Pricing Table updated."
+msgstr "Pricing Table updated."
+
+#: inc/rpt-post-type.php:21
+msgid "No Pricing Tables found in Trash."
+msgstr "No Pricing Tables found in Trash."
+
+#: inc/rpt-post-type.php:20
+msgid "No Pricing Tables found."
+msgstr "No Pricing Tables found."
+
+#: inc/rpt-post-type.php:19
+msgid "Search Pricing Tables"
+msgstr "Search Pricing Tables"
+
+#: inc/rpt-post-type.php:18
+msgid "All Pricing Tables"
+msgstr "All Pricing Tables"
+
+#: inc/rpt-post-type.php:17
+msgid "View Pricing Table"
+msgstr "View Pricing Table"
+
+#: inc/rpt-post-type.php:16
+msgid "Edit Pricing Table"
+msgstr "Edit Pricing Table"
+
+#: inc/rpt-post-type.php:15
+msgid "New Pricing Table"
+msgstr "New Pricing Table"
+
+#: inc/rpt-post-type.php:14
+msgid "Add New Pricing Table"
+msgstr "Add New Pricing Table"
+
+#: inc/rpt-post-type.php:13
+msgid "Add New"
+msgstr "Add New"
+
+#: inc/rpt-post-type.php:10 inc/rpt-post-type.php:12
+msgid "Pricing Table"
+msgstr "Pricing Table"
+
+#: inc/rpt-post-type.php:9 inc/rpt-post-type.php:11
+msgid "Pricing Tables"
+msgstr "Pricing Tables"
+
+#: inc/rpt-metaboxes-plans.php:162 inc/rpt-metaboxes-plans.php:341
+#: inc/rpt-metaboxes-settings.php:321
+msgid "Features"
+msgstr "Features"
+
+#: inc/rpt-metaboxes-settings.php:71
+msgid "Big"
+msgstr "Big"
+
+#: inc/rpt-metaboxes-settings.php:38 inc/rpt-metaboxes-settings.php:49
+#: inc/rpt-metaboxes-settings.php:59 inc/rpt-metaboxes-settings.php:70
+#: inc/rpt-metaboxes-settings.php:81 inc/rpt-metaboxes-settings.php:91
+#: inc/rpt-metaboxes-settings.php:101
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/rpt-metaboxes-settings.php:37 inc/rpt-metaboxes-settings.php:48
+#: inc/rpt-metaboxes-settings.php:58 inc/rpt-metaboxes-settings.php:69
+#: inc/rpt-metaboxes-settings.php:80 inc/rpt-metaboxes-settings.php:90
+#: inc/rpt-metaboxes-settings.php:100
+msgid "Small"
+msgstr "Small"
+
+#: inc/rpt-metaboxes-settings.php:36 inc/rpt-metaboxes-settings.php:47
+#: inc/rpt-metaboxes-settings.php:68
+msgid "Tiny"
+msgstr "Tiny"
+
+#: inc/rpt-metaboxes-plans.php:256 inc/rpt-metaboxes-plans.php:434
+msgid "Color"
+msgstr "Colour"
+
+#: inc/rpt-metaboxes-plans.php:198 inc/rpt-metaboxes-plans.php:376
+#: inc/rpt-metaboxes-settings.php:309
+msgid "Button text"
+msgstr "Button text"
+
+#: inc/rpt-metaboxes-settings.php:273
+msgid "Description"
+msgstr "Description"
+
+#: inc/rpt-metaboxes-plans.php:146 inc/rpt-metaboxes-plans.php:326
+#: inc/rpt-metaboxes-settings.php:285
+msgid "Price"
+msgstr "Price"
+
+#: inc/rpt-metaboxes-plans.php:132 inc/rpt-metaboxes-plans.php:312
+#: inc/rpt-metaboxes-settings.php:261
+msgid "Subtitle"
+msgstr "Subtitle"
+
+#: inc/rpt-metaboxes-plans.php:125 inc/rpt-metaboxes-plans.php:305
+#: inc/rpt-metaboxes-settings.php:249
+msgid "Title"
+msgstr "Title"

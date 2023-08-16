@@ -1,0 +1,32 @@
+
+.gform_wrapper form input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]){
+    padding: 0 28px;
+    border-radius: 28px; height: 56px; padding: 0 28px;
+}
+
+.gform_wrapper form textarea{
+    border-radius: 28px; padding: 14px 28px;
+}
+
+.gform_wrapper form .top_label .gfield_label{display: none;}
+
+.gform_wrapper p, .gform_footer p{
+    display: none;
+}
+
+.gform_wrapper form .gform_footer input.button, .gform_wrapper form .gform_footer input[type=submit], .gform_wrapper form .gform_page_footer input.button, .gform_wrapper form .gform_page_footer input[type=submit]{
+    background: var(--primary-color); 
+    color: white; 
+    width: calc(100% - 14px); 
+    text-align: center;
+    height: 56px;
+    border-radius: 28px;
+}
+
+.box a{color: var(--primary-color); text-decoration: underline;}
+
+@media(max-width: 640px){
+    .gform_wrapper form .gform_footer input.button, .gform_wrapper form .gform_footer input[type=submit], .gform_wrapper form .gform_page_footer input.button, .gform_wrapper form .gform_page_footer input[type=submit]{
+        width: calc(100%);
+    }
+}

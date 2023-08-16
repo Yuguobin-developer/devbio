@@ -1,0 +1,171 @@
+Log created: 2021-08-26 16:32:48
+Type: backup
+[2021-08-26 16:32:51][notice]Start backing up.
+[2021-08-26 16:32:51][notice]server info fcgi:Off max execution time: 900 wp version:5.7.2 php version:7.2.34 db version:5.7.35 php ini:safe_mode: memory_limit:256M memory_get_usage:127.96 MB memory_get_peak_usage:128.12 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2021-08-26 16:32:51][notice]Prepare to backup backup_db files.
+[2021-08-26 16:32:51][notice]Start exporting database.
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_actionscheduler_actions
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_actionscheduler_claims
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_actionscheduler_groups
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_actionscheduler_logs
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_adrotate
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_adrotate_groups
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_adrotate_linkmeta
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_adrotate_schedule
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_adrotate_stats
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_adrotate_stats_archive
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_adrotate_tracker
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_activity
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_activity_meta
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_document
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_document_folder
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_document_folder_meta
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_document_meta
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_follow
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_friends
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_groups
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_groups_groupmeta
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_groups_members
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_invitations
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_media
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_media_albums
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_messages_messages
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_messages_meta
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_messages_notices
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_messages_recipients
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_moderation
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_moderation_meta
+[2021-08-26 16:32:51][notice]Preparing to dump table wp_bp_notifications
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_bp_notifications_meta
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_bp_suspend
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_bp_suspend_details
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_bp_user_blogs
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_bp_user_blogs_blogmeta
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_bp_xprofile_data
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_bp_xprofile_fields
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_bp_xprofile_groups
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_bp_xprofile_meta
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_bp_zoom_meeting_meta
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_bp_zoom_meetings
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_bp_zoom_recordings
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_bp_zoom_webinar_meta
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_bp_zoom_webinar_recordings
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_bp_zoom_webinars
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_ce4wp_abandoned_checkout
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_ce4wp_contacts
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_commentmeta
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_comments
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_gmw_forms
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_gmw_locationmeta
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_gmw_locations
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_links
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_mailchimp_carts
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_mailchimp_jobs
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_mepr_corporate_accounts
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_mepr_events
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_mepr_jobs
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_mepr_members
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_mepr_rule_access_conditions
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_mepr_subscription_meta
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_mepr_subscriptions
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_mepr_tax_rate_locations
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_mepr_tax_rates
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_mepr_transaction_meta
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_mepr_transactions
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_options
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_postmeta
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_posts
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_signups
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_term_relationships
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_term_taxonomy
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_termmeta
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_terms
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_usermeta
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_users
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_wc_admin_note_actions
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_wc_admin_notes
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_wc_category_lookup
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_wc_customer_lookup
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_wc_download_log
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_wc_order_coupon_lookup
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_wc_order_product_lookup
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_wc_order_stats
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_wc_order_tax_lookup
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_wc_product_meta_lookup
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_wc_reserved_stock
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_wc_tax_rate_classes
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_wc_webhooks
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_woocommerce_api_keys
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_woocommerce_attribute_taxonomies
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_woocommerce_downloadable_product_permissions
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_woocommerce_log
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_woocommerce_order_itemmeta
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_woocommerce_order_items
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_woocommerce_payment_tokenmeta
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_woocommerce_payment_tokens
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_woocommerce_sessions
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_woocommerce_shipping_zone_locations
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_woocommerce_shipping_zone_methods
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_woocommerce_shipping_zones
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_woocommerce_tax_rate_locations
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_woocommerce_tax_rates
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_wpvivid_scan_result
+[2021-08-26 16:32:52][notice]Preparing to dump table wp_wpvivid_unused_uploads_files
+[2021-08-26 16:32:52][notice]Exporting database finished.
+[2021-08-26 16:32:52][notice]Start compressing backup_db
+[2021-08-26 16:32:52][notice]Prepare to zip files. file: solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_db.zip
+[2021-08-26 16:32:52][notice]Adding zip files completed.solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_db.zip, filesize: 2.58 MB
+[2021-08-26 16:32:52][notice]Compressing backup_db completed
+[2021-08-26 16:32:52][notice]Backing up backup_db completed.
+[2021-08-26 16:32:52][notice]Prepare to backup backup_themes files.
+[2021-08-26 16:32:52][notice]File number: 1615
+[2021-08-26 16:32:52][notice]Start compressing backup_themes
+[2021-08-26 16:32:52][notice]Prepare to zip files. file: solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_themes.zip
+[2021-08-26 16:32:54][notice]Adding zip files completed.solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_themes.zip, filesize: 51.33 MB
+[2021-08-26 16:32:54][notice]Compressing backup_themes completed
+[2021-08-26 16:32:54][notice]Backing up backup_themes completed.
+[2021-08-26 16:32:55][notice]Prepare to backup backup_plugin files.
+[2021-08-26 16:32:55][notice]File number: 11645
+[2021-08-26 16:32:55][notice]Start compressing backup_plugin
+[2021-08-26 16:32:56][notice]Prepare to zip files. file: solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_plugin.zip
+[2021-08-26 16:33:18][notice]Adding zip files completed.solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_plugin.zip, filesize: 127.11 MB
+[2021-08-26 16:33:18][notice]Compressing backup_plugin completed
+[2021-08-26 16:33:18][notice]Backing up backup_plugin completed.
+[2021-08-26 16:33:18][notice]Prepare to backup backup_uploads files.
+[2021-08-26 16:33:18][notice]File number: 218
+[2021-08-26 16:33:18][notice]Start compressing backup_uploads
+[2021-08-26 16:33:18][notice]Prepare to zip files. file: solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_uploads.zip
+[2021-08-26 16:33:19][notice]Adding zip files completed.solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_uploads.zip, filesize: 23.15 MB
+[2021-08-26 16:33:19][notice]Compressing backup_uploads completed
+[2021-08-26 16:33:19][notice]Backing up backup_uploads completed.
+[2021-08-26 16:33:19][notice]Prepare to backup backup_content files.
+[2021-08-26 16:33:19][notice]File number: 384
+[2021-08-26 16:33:19][notice]Start compressing backup_content
+[2021-08-26 16:33:19][notice]Prepare to zip files. file: solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_content.zip
+[2021-08-26 16:33:19][notice]Adding zip files completed.solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_content.zip, filesize: 5.15 MB
+[2021-08-26 16:33:19][notice]Compressing backup_content completed
+[2021-08-26 16:33:19][notice]Backing up backup_content completed.
+[2021-08-26 16:33:19][notice]Prepare to backup backup_core files.
+[2021-08-26 16:33:19][notice]File number: 1818
+[2021-08-26 16:33:19][notice]Start compressing backup_core
+[2021-08-26 16:33:20][notice]Prepare to zip files. file: solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_core.zip
+[2021-08-26 16:33:23][notice]Adding zip files completed.solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_core.zip, filesize: 57.01 MB
+[2021-08-26 16:33:23][notice]Compressing backup_core completed
+[2021-08-26 16:33:23][notice]Backing up backup_core completed.
+[2021-08-26 16:33:23][notice]Prepare to backup backup_merge files.
+[2021-08-26 16:33:23][notice]File number: 6
+[2021-08-26 16:33:23][notice]Start compressing backup_merge
+[2021-08-26 16:33:24][notice]Prepare to zip files. file: solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_all.part001.zip
+[2021-08-26 16:33:33][notice]Adding zip files completed.solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_all.part001.zip, filesize: 57.54 MB
+[2021-08-26 16:33:33][notice]Cleaned up file, filename: /home/sa/public_html/biogasworld/wp-content/wpvividbackups/solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_plugin.zip
+[2021-08-26 16:33:33][notice]Cleaned up file, filename: /home/sa/public_html/biogasworld/wp-content/wpvividbackups/solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_core.zip
+[2021-08-26 16:33:33][notice]Prepare to zip files. file: solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_all.part002.zip
+[2021-08-26 16:33:36][notice]Adding zip files completed.solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_all.part002.zip, filesize: 58.85 MB
+[2021-08-26 16:33:36][notice]Cleaned up file, filename: /home/sa/public_html/biogasworld/wp-content/wpvividbackups/solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_themes.zip
+[2021-08-26 16:33:36][notice]Cleaned up file, filename: /home/sa/public_html/biogasworld/wp-content/wpvividbackups/solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_uploads.zip
+[2021-08-26 16:33:36][notice]Cleaned up file, filename: /home/sa/public_html/biogasworld/wp-content/wpvividbackups/solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_content.zip
+[2021-08-26 16:33:36][notice]Cleaned up file, filename: /home/sa/public_html/biogasworld/wp-content/wpvividbackups/solutionsangulaires.com_biogasworld_wpvivid-6127c230d0f1c_2021-08-26-12-32_backup_db.zip
+[2021-08-26 16:33:36][notice]Compressing backup_merge completed
+[2021-08-26 16:33:36][notice]Backing up backup_merge completed.
+[2021-08-26 16:33:36][notice]Backup completed.
+[2021-08-26 16:33:36][notice]Backup succeeded.
